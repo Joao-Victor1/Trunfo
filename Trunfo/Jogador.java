@@ -5,12 +5,12 @@ public class Jogador
 {
     String nome;
     int pontos;
-    Carta monte[] = new Carta[5];
+    Carta monte[] = new Carta[10];
     
     Jogador(){
          pontos = 0;   
     
-         for(int i=0; i<=4; i++){
+         for(int i=0; i<=9; i++){
             monte[i] = new Carta();
         }
     }
