@@ -117,18 +117,9 @@ public class Tabuleiro {
                              break;
                     default : System.out.println("Escolha invalida.");
                              break;
-                    
                 }
-                
             }
-            this.exibirPlacar();
-        }
-        
-        
-        
-        
-    }
-    
-    
-    
+            exibirPlacar();
+        }       
+    }    
 }
